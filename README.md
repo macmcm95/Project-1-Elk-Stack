@@ -72,7 +72,7 @@ The playbook implements the following tasks:
 - Increase virtual memory
 - Download and launch Docker
 
-Examples of playbooks used: [alt text](https://github.com/macmcm95/Project-1-Elk-Stack/blob/main/Ansible/filebeat-playbook.yml "filebeat-playbook.yml")
+Examples of playbooks used: [filebeat](https://github.com/macmcm95/Project-1-Elk-Stack/blob/main/Ansible/filebeat-playbook.yml "filebeat-playbook.yml)
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
