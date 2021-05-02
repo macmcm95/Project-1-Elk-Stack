@@ -105,8 +105,5 @@ SSH into the control node and follow the steps below:
 
 Provide the specific commands the user will need to run to download the playbook, update the files, etc.
 - Move to directory where playbooks are located: `cd /etc/ansible`
-- To run playbooks: 
-..*`ansible-playbook install-elk.yml`
-..*`ansible-playbook filebeat-playbook.yml`
-..*`ansible-playbook metricbeat-playbook.yml`
+- To run playbooks: `ansible-playbook install-elk.yml`..`ansible-playbook filebeat-playbook.yml`, `ansible-playbook metricbeat-playbook.yml`
 - Use `nano` to update files as needed
