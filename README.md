@@ -63,7 +63,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - Simple to set up, configure and use.
 - Ability to manage (set up and update) entire enviroment no matter where it is deployed.
 - Customize application based on needs.
-- Increased efficiency becasue there is no need to install extra software, leaving more room for other resources on server.
+- Increased efficiency because there is no need to install extra software, leaving more room for other resources on server.
 
 The playbook implements the following tasks:
 - Install docker.io
