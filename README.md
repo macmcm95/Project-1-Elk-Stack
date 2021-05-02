@@ -61,9 +61,9 @@ A summary of the access policies in place can be found in the table below.
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because:
 - Ansible is an open-source tool, making it free and cost effective.
 - Simple to set up, configure and use.
-- Ability to manage (set up and update) entire enviroment no matter where it is deploy.
+- Ability to manage (set up and update) entire enviroment no matter where it is deployed.
 - Customize application based on needs.
-- Increased efficiency becasue no need to install extra software, leaving more room for resources on server.
+- Increased efficiency becasue there is no need to install extra software, leaving more room for other resources on server.
 
 The playbook implements the following tasks:
 - Install docker.io
