@@ -100,3 +100,13 @@ SSH into the control node and follow the steps below:
 - Copy the playbook files to /etc/ansible.
 - Update the hosts file to include the webservers, elk and respective private IP Addresses to make Ansible run the playbook on specific machines.
 - Run the playbook, and navigate to Kibana (http://[your.VM.IP]:5601/app/kibana) to check that the installation worked as expected.
+
+### **Bonus**
+
+Provide the specific commands the user will need to run to download the playbook, update the files, etc.
+- Move to directory where playbooks are located: `cd /etc/ansible`
+- To run playbooks: 
+    `ansible-playbook install-elk.yml'
+    `ansible-playbook filebeat-playbook.yml`
+    `ansible-playbook metricbeat-playbook.yml`
+- Use `nano` to update files as needed
